@@ -1,0 +1,34 @@
+/* 
+ 1-Posicionamiento =>Static, absolute, relative, fixed
+ 2-Modelo de Caja o Box Model => Margin, border, padding, content
+ 3-Tipografia Fuentes => Tipos y tamanos de fuente
+ 4-Visuales Efectos =>Box shadows, border radius, gradient
+ 5-Otros => Regla CSS
+*/
+
+/* Creando variables */
+:root {
+    /* Colores */
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7 --soft-blue: #e7f5ff;
+    --warm-black: #282623;
+    --black: #201e1c;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+}
+/* Universal para el html */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Fuentes de html */
+html{
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+
