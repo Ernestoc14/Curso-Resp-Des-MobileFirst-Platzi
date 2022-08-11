@@ -194,7 +194,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
 }
-    .currency-table--date{
+.currency-table--date{
     width: 230px;
     height: 30px;
     margin: 0 auto;
@@ -346,12 +346,12 @@ main{
     height: 316px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
-
+    /* scroll-snap-type: x proximity; */
+    text-align: center;
 }
 .plans-container--card{
-    position: relative;/* generamos efecto flotante del item */
-    scroll-snap-align: center; /* Centra el elemento siguiente cuando el contenido esta en la mitad de la pantalla */
+    position: relative;/* relative generamos efecto flotante del item colocandolo en el centro del section */
+    /*scroll-snap-align: center;  Centra el elemento siguiente cuando el contenido esta en la mitad de la pantalla */
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -361,6 +361,8 @@ main{
     background-color: var(--just-white);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    margin-left: auto;
+    margin-right: auto;
 }
 .recommended{
     position: absolute;
@@ -427,6 +429,7 @@ main{
 footer{
     display: flex; /* Para que ambas sections queden al lado de la otra */
     width: 100%;
+    min-width: 320px;
     height: 218px;
     background-color: var(--bitcoin-orange);
 }

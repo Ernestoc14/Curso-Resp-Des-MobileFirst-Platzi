@@ -10,5 +10,7 @@
     margin: 0 auto;
 }
 .plans-container--slider{
+    /* position: absolute; */
+    /* width: calc(50% - 20px); */
     justify-content: center;
 }
